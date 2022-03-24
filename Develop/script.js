@@ -9,13 +9,14 @@ var currentHour = moment().format("H");
 console.log(currentHour);
 
 for (var i = 9; i < 18; i++) {
-    var timeBlock = $(i);
+    var timeBlock = document.getElementById(i.toString());
 
-    if (timeBlock === currentHour) {
-        timeBlock.addClass("present");
-    } else if (timeBlock < currentHour) {
-        timeBlock.addClass("past");
+    if (i == currentHour) {
+        timeBlock.classList.add("present");
+    } else if (i < currentHour) {
+        timeBlock.classList.add("past");
     } else {
-        timeBlock.addClass("future");
+        timeBlock.classList.add("future");
     }
 }
+
