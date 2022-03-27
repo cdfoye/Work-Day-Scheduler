@@ -1,4 +1,4 @@
-
+var saveButton = $("button");
 
 // Display today's date
 var now = moment().format("dddd, MMMM Do YYYY");
@@ -19,4 +19,23 @@ for (var i = 9; i < 18; i++) {
         timeBlock.classList.add("future");
     }
 }
+
+function saveText() {
+    for (var i = 9; i < 18; i++) {
+        localStorage.setItem('text' + i, document.getElementById(i.toString()).value);
+    }
+}
+
+function displayText() {
+    for (var i = 9; i < 18; i++) {
+        document.getElementById(i.toString()).value = localStorage.getItem('text' + i);
+    }
+}
+
+displayText();
+
+for (var i = 0; i < saveButton.length; i++) {
+    saveButton[i].addEventListener("click", saveText)
+}
+
 
