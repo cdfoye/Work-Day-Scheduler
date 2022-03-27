@@ -4,116 +4,153 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!-- save logo api link-->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
       integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
       crossorigin="anonymous"
     />
+    <!-- google fonts api link -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- CSS stylesheet -->
     <link rel="stylesheet" href="style.css" />
+    <!-- title -->
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
+    <!-- header -->
     <header class="jumbotron">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
+      <!-- display current day -->
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
       <!-- 9AM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">9AM</span>
         </div>
+        <!-- task -->
         <textarea id="9" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
 
       <!-- 10AM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">10AM</span>
         </div>
+        <!-- task -->
         <textarea id="10" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
 
       <!-- 11AM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">11AM</span>
         </div>
+        <!-- task -->
         <textarea id="11" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
 
       <!-- 12PM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">12PM</span>
         </div>
+        <!-- task -->
         <textarea id="12" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
 
       <!-- 1PM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">1PM</span>
         </div>
+        <!-- task -->
         <textarea id="13" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
 
       <!-- 2PM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">2PM</span>
         </div>
+        <!-- task -->
         <textarea id="14" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
 
       <!-- 3PM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">3PM</span>
         </div>
+        <!-- task -->
         <textarea id="15" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
 
       <!-- 4PM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">4PM</span>
         </div>
+        <!-- task -->
         <textarea id="16" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
 
       <!-- 5PM Divs -->
       <div class="row d-flex justify-content-center text-center time-block">
+        <!-- displays time -->
         <div class="col-2 col-lg-1 text-right hour">
           <span class="align-middle">5PM</span>
         </div>
+        <!-- task -->
         <textarea id="17" class="col-8 description"></textarea>
+        <!-- save task/text -->
         <button class="btn col-1 fas fa-lock saveBtn" type="button"></button>
       </div>
     </div>
 
+    <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- moment.js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <!-- JavaScript file -->
     <script src="./script.js"></script>
   </body>
 </html>

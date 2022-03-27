@@ -1,9 +1,11 @@
+/* sets the font, font-size, and line-height for the body area */
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1;
 }
 
+/* Styling for the textareas */
 textarea {
   background: transparent;
   border: none;
@@ -13,6 +15,7 @@ textarea {
   padding: 10px;
 }
 
+/* styling and text properties for the jumbotron*/
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -21,42 +24,50 @@ textarea {
   border-bottom: 10px solid black;
 }
 
+/* Sequences of white space are preserved. Lines are broken at newline characters, at <br>, and as necessary to fill line boxes. */
 .description {
   white-space: pre-wrap;
 }
 
+/* aligns text and adds border radius */
 .time-block {
   text-align: center;
   border-radius: 15px;
 }
 
+/* Sets how white-space is handled and sets row height and adds a border to the top */
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
 }
 
+/* sets background color and border at the top */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* changes background color and text color */
 .past {
   background-color: #d3d3d3;
   color: white;
 }
 
+/* changes background color and text color */
 .present {
   background-color: #ff6961;
   color: white;
 }
 
+/* changes background color and text color */
 .future {
   background-color: #77dd77;
   color: white;
 }
 
+/* button styling */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
@@ -65,6 +76,7 @@ textarea {
   color: white;
 }
 
+/* changes font size and appearance when hovering over button */
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
