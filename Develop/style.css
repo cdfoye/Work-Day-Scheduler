@@ -5,7 +5,7 @@ body {
   line-height: 1;
 }
 
-/* Styling for the textareas */
+/* Styling for the textareas. background, border, text color, sizing, and padding */
 textarea {
   background: transparent;
   border: none;

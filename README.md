@@ -3,9 +3,9 @@
 <div>
   <p align="center">
     <br />
-    <h2 align="center"><a href="https://github.com/cdfoye/Coding-Quiz"><strong>Link to the GitHub Repo »</strong></a></h2>
+    <h2 align="center"><a href="https://github.com/cdfoye/Work-Day-Scheduler"><strong>Link to the GitHub Repo »</strong></a></h2>
     <br />
-    <h2 align="center"><a href=" https://cdfoye.github.io/Coding-Quiz/">Link to the Scheduler »</strong></a></h2>
+    <h2 align="center"><a href="https://cdfoye.github.io/Work-Day-Scheduler/">Link to the Scheduler »</strong></a></h2>
     <br />
     <br />
   </p>

@@ -33,7 +33,7 @@ function saveText() {
     }
 }
 
-// funtion to display saved text when the page is refreshed
+// funtion to keep saved text when the page is refreshed
 function displayText() {
     // for loop that gets the saved texts for each row. iteration starts at the first row listed
     for (var i = 9; i < 18; i++) {
